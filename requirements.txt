@@ -1,0 +1,7 @@
+Flask==3.0.3
+python-dotenv==1.0.1
+opencv-python-headless==4.10.0.84
+pytest==8.3.2
+Werkzeug==3.0.3
+# Optional model dependency for a real YOLO workflow on Python 3.11:
+# ultralytics==8.3.41

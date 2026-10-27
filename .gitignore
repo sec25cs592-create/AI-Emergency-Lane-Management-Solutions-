@@ -151,6 +151,8 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -158,6 +160,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Project runtime data
+instance/
+instance/uploads/
+models/
+*.db
 
 # Spyder project settings
 .spyderproject

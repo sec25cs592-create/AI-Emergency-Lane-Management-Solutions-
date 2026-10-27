@@ -1,0 +1,44 @@
+{
+  "scenarios": [
+    {
+      "scenario": "normal_traffic",
+      "description": "Light vehicle flow with a moderate number of cars and motorcycles.",
+      "vehicle_count": 5,
+      "congestion": "low",
+      "emergency_detected": false,
+      "signal_state": "RED"
+    },
+    {
+      "scenario": "congestion",
+      "description": "High traffic density with several buses and trucks queued at a junction.",
+      "vehicle_count": 12,
+      "congestion": "heavy",
+      "emergency_detected": false,
+      "signal_state": "YELLOW"
+    },
+    {
+      "scenario": "ambulance_detection",
+      "description": "Emergency ambulance enters the camera view and triggers priority alert.",
+      "vehicle_count": 1,
+      "congestion": "low",
+      "emergency_detected": true,
+      "signal_state": "GREEN"
+    },
+    {
+      "scenario": "fire_engine_detection",
+      "description": "Fire engine is detected and the simulated corridor is activated.",
+      "vehicle_count": 2,
+      "congestion": "moderate",
+      "emergency_detected": true,
+      "signal_state": "GREEN"
+    },
+    {
+      "scenario": "no_emergency",
+      "description": "No emergency vehicle is present. Standard signal management continues.",
+      "vehicle_count": 3,
+      "congestion": "low",
+      "emergency_detected": false,
+      "signal_state": "RED"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "source": "AELMS demo dataset",
+  "records": [
+    {
+      "event_id": 1,
+      "timestamp": "2026-10-27T08:00:00Z",
+      "detected_class": "car",
+      "confidence": 0.91,
+      "source_type": "upload",
+      "emergency_alert": false,
+      "simulated_signal": "RED",
+      "bbox": [64, 112, 220, 240]
+    },
+    {
+      "event_id": 2,
+      "timestamp": "2026-10-27T08:00:05Z",
+      "detected_class": "ambulance",
+      "confidence": 0.96,
+      "source_type": "webcam",
+      "emergency_alert": true,
+      "simulated_signal": "GREEN",
+      "bbox": [120, 82, 370, 260]
+    },
+    {
+      "event_id": 3,
+      "timestamp": "2026-10-27T08:00:10Z",
+      "detected_class": "truck",
+      "confidence": 0.84,
+      "source_type": "upload",
+      "emergency_alert": false,
+      "simulated_signal": "YELLOW",
+      "bbox": [200, 145, 410, 270]
+    },
+    {
+      "event_id": 4,
+      "timestamp": "2026-10-27T08:00:12Z",
+      "detected_class": "fire_engine",
+      "confidence": 0.97,
+      "source_type": "upload",
+      "emergency_alert": true,
+      "simulated_signal": "GREEN",
+      "bbox": [90, 100, 360, 255]
+    }
+  ]
+}
